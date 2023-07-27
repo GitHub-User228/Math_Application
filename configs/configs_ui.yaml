@@ -1,0 +1,284 @@
+screen:
+  main:
+    spacing: 0
+    padding: 10
+    inner_spacing: 20
+    configs_area:
+      frac: 0.76
+      background_color:
+      - 0.7
+      - 0.7
+      - 0.7
+      - 0.0
+      spacing1: 10
+      spacing2: 20
+      fracs:
+      - 0.3
+      - 0.5
+      - 0.2
+  task:
+    spacing: 10
+    padding: 10
+    fracs:
+    - 0.12
+    - 0.125
+    - 0.63
+    - 0.125
+    inner_spacing:
+    - 20
+    - 0
+    - 0
+    - 10
+    answer_row_fracs:
+    - 0.6
+    - 0.2
+    - 0.2
+  result:
+    fracs:
+    - 0.12
+    - 0.88
+  logs:
+    fracs:
+    - 0.12
+    - 0.88
+  logs_managing:
+    fracs:
+    - 0.12
+    - 0.88
+    popup:
+      password: 256324
+      size_hint:
+      - 0.8
+      - 0.5
+table:
+  row_height_factor: 0.23
+  fracs:
+    header: 0.2
+    items: 0.8
+  column_fracs:
+  - 0.05
+  - 0.15
+  - 0.12
+  - 0.12
+  - 0.56
+  spacing_between:
+    header_and_items: 5
+    columns: 5
+    rows: 0
+  padding:
+    x: 10
+    y: 10
+  background_color:
+    item:
+      default:
+      - 0.85
+      - 0.82
+      - 0.82
+      - 0.7
+      correct:
+      - 0.14
+      - 0.78
+      - 0.09
+      - 0.7
+      not_correct:
+      - 1
+      - 0.2
+      - 0.2
+      - 0.7
+    index:
+    - 0.59
+    - 0.14
+    - 0.59
+    - 0.7
+    header:
+    - 0.4
+    - 0
+    - 0.55
+    - 0.7
+  color:
+  - 1
+  - 1
+  - 1
+  - 1
+  font_name: Arial
+table2:
+  row_height_default: 0.075
+  row_height_factor_per_line: 0.075
+  fracs:
+    header: 0.15
+    items: 0.85
+  column_fracs:
+  - 0.05
+  - 0.2
+  - 0.75
+  spacing_between:
+    header_and_items: 5
+    columns: 5
+    rows: 5
+  padding:
+    x: 10
+    y: 10
+  background_color:
+    item:
+      default:
+      - 0.85
+      - 0.82
+      - 0.82
+      - 0.7
+      correct:
+      - 0.14
+      - 0.78
+      - 0.09
+      - 0.7
+      not_correct:
+      - 1
+      - 0.2
+      - 0.2
+      - 0.7
+    index:
+    - 0.59
+    - 0.14
+    - 0.59
+    - 0.7
+    header:
+    - 0.4
+    - 0
+    - 0.55
+    - 0.7
+  color:
+  - 1
+  - 1
+  - 1
+  - 1
+  font_name: Arial
+table4:
+  row_height_factor: 0.24
+  fracs:
+    header: 0.15
+    items: 0.85
+  column_fracs:
+  - 0.23
+  - 0.25
+  - 0.15
+  - 0.29
+  - 0.09
+  spacing_between:
+    header_and_items: 5
+    columns: 5
+    rows: 0
+  padding:
+    x: 10
+    y: 10
+  background_color:
+    default:
+    - 0.85
+    - 0.82
+    - 0.82
+    - 0.7
+    header:
+    - 0.4
+    - 0
+    - 0.55
+    - 0.7
+    selected:
+    - 0.14
+    - 0.78
+    - 0.09
+    - 0.7
+    not_selected:
+    - 1
+    - 0.2
+    - 0.2
+    - 0.7
+  color:
+  - 1
+  - 1
+  - 1
+  - 1
+task_field:
+  background_color:
+  - 0.86
+  - 0.86
+  - 0.86
+  - 0.5
+  foreground_color:
+  - 1
+  - 1
+  - 1
+  - 1
+  font_name: Arial
+  font_size_factor: 0.085
+  halign: center
+text_input:
+  background_color:
+  - 0.86
+  - 0.86
+  - 0.86
+  - 0.5
+  foreground_color:
+  - 1
+  - 1
+  - 1
+  - 1
+  font_name: Arial
+  font_size_factor: 0.05
+  halign: center
+button:
+  color:
+    default:
+    - 1
+    - 1
+    - 1
+    - 1
+    drop_down:
+    - 0.9
+    - 0.9
+    - 0.9
+    - 1
+    other_screen:
+    - 0.7
+    - 0.7
+    - 0.7
+    - 0.7
+  background_color:
+    default:
+    - 0.87
+    - 0.45
+    - 1
+    - 0.1
+    if_clicked:
+    - 0.87
+    - 0.45
+    - 1
+    - 0.3
+    drop_down:
+    - 0.57
+    - 0.15
+    - 0.7
+    - 0.9
+    current_screen:
+    - 0.87
+    - 0.45
+    - 1
+    - 0.34
+  font_name: Comic Sans MS
+  font_size_factor: 0.06
+  height:
+    drop_down: 120
+label:
+  color:
+  - 1
+  - 1
+  - 1
+  - 1
+  font_name: Comic Sans MS
+  font_size_factor: 0.06
+appname:
+  text: MathTasks v2.2
+  color:
+  - 1
+  - 1
+  - 1
+  - 1
+  font_name: Century
+  font_size_factor: 0.15

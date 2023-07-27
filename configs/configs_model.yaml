@@ -1,0 +1,88 @@
+уравнения:
+    n_tasks:
+        min: 1
+        max: 30
+        step: 1
+        value: 5
+    max_number:
+        min: 100
+        max: 9999
+        step: 100
+        value: 100
+    conf3:
+        name: Сложность
+        min: 0
+        max: 3
+        step: 1
+        value: 1
+        actual_values:
+            0: Любая
+            1: 1
+            2: 2
+            3: 3
+ед.измерения:
+    n_tasks:
+        min: 1
+        max: 30
+        step: 1
+        value: 5
+    max_number:
+        min: 1000
+        max: 100000
+        step: 1000
+        value: 1000
+    conf3:
+        name: Тип задания
+        min: 0
+        max: 2
+        step: 1
+        value: 1
+        actual_values:
+            0: Любой
+            1: Аггрегация
+            2: Разложение
+геометрия:
+    n_tasks:
+        min: 1
+        max: 30
+        step: 1
+        value: 5
+    max_number:
+        min: 100
+        max: 10000
+        step: 100
+        value: 100
+    conf3:
+        name: Тип задания
+        min: 1
+        max: 3
+        step: 1
+        value: 1
+        actual_values:
+            1: Периметр
+            2: Площадь
+            3: Объем
+сист.ур.:
+    n_tasks:
+        min: 1
+        max: 10
+        step: 1
+        value: 2
+    max_number:
+        min: 100
+        max: 999
+        step: 10
+        value: 100
+    conf3:
+        name: Сложность
+        min: 1
+        max: 4
+        step: 1
+        value: 2
+        actual_values:
+            1: Любая
+            2: 2
+            3: 3
+            4: 4
+
+
